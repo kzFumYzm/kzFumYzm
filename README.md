@@ -1,16 +1,13 @@
-## Hi there 👋
+### 👨‍💻 个人简介
 
-<!--
-**kzFumYzm/kzFumYzm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```javascript
+const developer = {
+    name: "[你的名字]",
+    role: "Full Stack Developer",
+    code: ["Javascript", "Python", "Go"],
+    tools: ["React", "Node", "Docker"],
+    challenge: "每天都在修 Bug 的路上",
+    funFact: "我不喝咖啡写不出代码 ☕️"
+};
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+console.log(`Hello, welcome to ${developer.name}'s profile!`);
